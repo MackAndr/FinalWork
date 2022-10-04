@@ -11,8 +11,8 @@ void StringArray()
     {
         if (arrayOld[i].Length <= 3)
         {
+            arrayNew[count] = arrayOld[i];
             count++;
-            arrayNew[count - 1] = arrayOld[i];
         }
     }
 
